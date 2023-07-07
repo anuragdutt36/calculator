@@ -1,26 +1,14 @@
 # Calculator Webpage
 
-This is a simple calculator webpage that allows users to perform basic arithmetic operations. It provides a user-friendly interface for inputting numbers and performing calculations.
+This is a simple calculator webpage that allows users to perform arithmetic operations. It features a responsive design for optimal viewing on different devices.
 
 ## Features
 
+- Arithmetic operations: modulo, division, multiplication, subtraction, addition
 - User-friendly calculator interface
 - Input fields for entering numbers
-- Buttons for arithmetic operations such as addition, subtraction, multiplication, and division
 - Clear button to reset the input fields
 - Calculation result display area
-- Responsive design for optimal viewing on different devices
-
-## Getting Started
-
-To get started with the calculator webpage, follow these steps:
-
-1. Clone the repository or download the template files.
-2. Open the `index.html` file in a web browser.
-3. Use the number buttons to enter the desired numbers.
-4. Click on the arithmetic operation buttons to perform calculations.
-5. The result will be displayed in the calculation result area.
-6. Use the clear button to reset the input fields and start a new calculation.
 
 ## Technologies Used
 
@@ -28,4 +16,19 @@ To get started with the calculator webpage, follow these steps:
 - CSS
 - JavaScript
 
+## Usage
+
+To use the calculator, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/calculator.git`
+2. Navigate to the project directory: `cd calculator`
+3. Open `index.html` in a web browser.
+
+## Preview
+
+![Calculator Preview](/screenshot/calculator-preview.png)
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
