@@ -2,6 +2,10 @@
 
 This is a simple calculator webpage that allows users to perform arithmetic operations. It features a responsive design for optimal viewing on different devices.
 
+## Preview
+
+![Calculator Preview](/screenshot/calculator-preview.png)
+
 ## Features
 
 - Arithmetic operations: modulo, division, multiplication, subtraction, addition
@@ -23,10 +27,6 @@ To use the calculator, follow these steps:
 1. Clone the repository: `git clone https://github.com/your-username/calculator.git`
 2. Navigate to the project directory: `cd calculator`
 3. Open `index.html` in a web browser.
-
-## Preview
-
-![Calculator Preview](/screenshot/calculator-preview.png)
 
 ## Contributing
 
