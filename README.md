@@ -2,6 +2,7 @@
 
 This is a simple calculator webpage that allows users to perform arithmetic operations. It features a responsive design for optimal viewing on different devices.
 
+<<<<<<< HEAD
 ## Preview
 
 ![Calculator Preview](/screenshot/calculator-preview.png)
@@ -10,6 +11,8 @@ This is a simple calculator webpage that allows users to perform arithmetic oper
 
 The Calculator Webpage is deployed and accessible at [Deployment Link](https://anuragdutt36.github.io/calculator/).
 
+=======
+>>>>>>> 19f1bfe (Modifing Readme.md)
 ## Features
 
 - Arithmetic operations: modulo, division, multiplication, subtraction, addition
@@ -32,6 +35,13 @@ To use the calculator, follow these steps:
 2. Navigate to the project directory: `cd calculator`
 3. Open `index.html` in a web browser.
 
+<<<<<<< HEAD
+=======
+## Preview
+
+![Calculator Preview](/screenshot/calculator-preview.png)
+
+>>>>>>> 19f1bfe (Modifing Readme.md)
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
