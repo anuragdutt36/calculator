@@ -1,22 +1,31 @@
+let displayScreen = document.getElementById('output-screen'); // Corrected ID
+let evalString = '';
 
-let outputScreen = document.getElementById("output-screen");
+function display(displayChar, evalChar) {
+    displayScreen.value += displayChar;
+    evalString += evalChar;
+}
 
-function display(num) {
-    outputScreen.value += num;
+function calculate() {
+    try {
+        displayScreen.value = eval(evalString);
+        evalString = displayScreen.value;
+    } catch (err) {
+        displayScreen.value = "Error";
+        evalString = '';
+    }
+}
+
+function clearScreen() {
+    displayScreen.value = '';
+    evalString = '';
 }
 
 function equal() {
-    try {
-        outputScreen.value = eval(outputScreen.value);
-    }
-    catch (err) {
-        alert("Invalid");
-    }
+    calculate();
 }
 
-function Clear() {
-    outputScreen.value = '';
-}
 function del() {
-    outputScreen.value = outputScreen.value.slice(0, -1);
+    displayScreen.value = displayScreen.value.slice(0, -1);
+    evalString = evalString.slice(0, -1);
 }
