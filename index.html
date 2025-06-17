@@ -13,37 +13,33 @@
 <body>
     <section class="calculator">
         <form>
-            <input type="text" placeholder="0" id="output-screen">
+            <input type="text" placeholder="0" id="output-screen" readonly>
         </form>
         <div class="buttons">
-            <button type="button" onclick="Clear()" class="btn btn-clear">C</button>
-            <button type="button" onclick="display('%')" class="btn btn-grey">%</button>
-            <button type="button" onclick="display('.')" class="btn btn-grey">.</button>
-            <button type="button" onclick="display('/')" class="btn btn-yellow">/</button>
-
-            <button type="button" onclick="display('7')" class="btn btn-grey">7</button>
-            <button type="button" onclick="display('8')" class="btn btn-grey">8</button>
-            <button type="button" onclick="display('9')" class="btn btn-grey">9</button>
-            <button type="button" onclick="display('x')" class="btn btn-yellow">x</button>
-            <button type="button" onclick="display('4')" class="btn btn-grey">4</button>
-            <button type="button" onclick="display('5')" class="btn btn-grey">5</button>
-            <button type="button" onclick="display('6')" class="btn btn-grey">6</button>
-            <button type="button" onclick="display('–')" class="btn btn-yellow">–</button>
-            <button type="button" onclick="display('1')" class="btn btn-grey">1</button>
-            <button type="button" onclick="display('2')" class="btn btn-grey">2</button>
-            <button type="button" onclick="display('3')" class="btn btn-grey">3</button>
-
-            <button type="button" onclick="display('+')" class="btn btn-yellow">+</button>
-            <button type="button" onclick="display('00')" class="btn btn-grey">00</button>
-            <button type="button" onclick="display('0')" class="btn btn-grey">0</button>
+            <button type="button" onclick="clearScreen()" class="btn btn-clear">C</button>
+            <button type="button" onclick="display('%','%')" class="btn btn-grey">%</button>
+            <button type="button" onclick="display('.', '.')" class="btn btn-grey">.</button>
+            <button type="button" onclick="display('÷', '/')" class="btn btn-yellow">÷</button>
+            <button type="button" onclick="display('7', '7')" class="btn btn-grey">7</button>
+            <button type="button" onclick="display('8', '8')" class="btn btn-grey">8</button>
+            <button type="button" onclick="display('9', '9')" class="btn btn-grey">9</button>
+            <button type="button" onclick="display('x', '*')" class="btn btn-yellow">x</button>
+            <button type="button" onclick="display('4', '4')" class="btn btn-grey">4</button>
+            <button type="button" onclick="display('5', '5')" class="btn btn-grey">5</button>
+            <button type="button" onclick="display('6', '6')" class="btn btn-grey">6</button>
+            <button type="button" onclick="display('–', '-')" class="btn btn-yellow">–</button>
+            <button type="button" onclick="display('1', '1')" class="btn btn-grey">1</button>
+            <button type="button" onclick="display('2', '2')" class="btn btn-grey">2</button>
+            <button type="button" onclick="display('3', '3')" class="btn btn-grey">3</button>
+            <button type="button" onclick="display('+', '+')" class="btn btn-yellow">+</button>
+            <button type="button" onclick="display('00', '00')" class="btn btn-grey">00</button>
+            <button type="button" onclick="display('0', '0')" class="btn btn-grey">0</button>
             <button type="button" onclick="del()" class="btn btn-grey">&larr;</button>
-
             <button type="button" onclick="equal()" class="btn btn-equal">=</button>
         </div>
     </section>
 
     <script src="app.js"></script>
-
 </body>
 
 </html>
